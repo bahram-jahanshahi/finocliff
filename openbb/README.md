@@ -28,6 +28,6 @@ uvicorn openbb_core.api.rest_api:app --host 127.0.0.1 --port 8000 --reload
 ```
 
 ## Open API doc and Try It Out
-´´´bash
+```bash
 http://127.0.0.1:6900/docs#/
-´´
+```
