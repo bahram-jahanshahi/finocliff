@@ -4,9 +4,9 @@
 ## Setup Python Environment
 
 ```bash
-python3.11 -m venv openbb
 cd openbb
-source ./bin/activate
+python3.11 -m venv venv
+source venv/bin/activate
 ```
 
 ## Install OpenBB
@@ -27,3 +27,7 @@ or
 uvicorn openbb_core.api.rest_api:app --host 127.0.0.1 --port 8000 --reload
 ```
 
+## Open API doc and Try It Out
+´´´bash
+http://127.0.0.1:6900/docs#/
+´´
