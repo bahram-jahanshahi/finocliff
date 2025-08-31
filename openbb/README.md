@@ -4,8 +4,9 @@
 ## Setup Python Environment
 
 ```bash
-python3.11 -m venv ~/venvs/openbb
-source ~/venvs/openbb/bin/activate
+python3.11 -m venv openbb
+cd openbb
+source ./bin/activate
 ```
 
 ## Install OpenBB
